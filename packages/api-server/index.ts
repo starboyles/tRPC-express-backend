@@ -1,4 +1,5 @@
 import express from "express";
+import * as trpc from "@trpc/server";
 
 const app = express();
 const port = 8080;
